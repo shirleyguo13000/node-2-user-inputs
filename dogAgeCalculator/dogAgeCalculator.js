@@ -8,10 +8,11 @@ Run this file with the node command:
 node dogAgeCalculator.js
 
 */
-
+// declaring dynamic input so user can enter their dog's name and human year
 let dogName = process.argv[2];
 let humanYear = Number(process.argv[3]);
 
+// conditional for if their dog is 1 years old, 2 years old or anything above 2.
 if (humanYear === 1) {
   console.log(
     `Your dog, ${dogName}, is 1 years old, but that's 15 years old in dog years!`,
