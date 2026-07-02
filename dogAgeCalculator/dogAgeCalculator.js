@@ -8,8 +8,6 @@
 // node dogAgeCalculator.js
 
 // process.argv lets us get information the user types in the terminal
-// Example terminal command:
-// node dogAge.js Bella 3
 // process.argv[0] is Node
 // process.argv[1] is the file name
 // process.argv[2] is the dog's name
